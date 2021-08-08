@@ -1,0 +1,19 @@
+body {
+    background-image: url("bg.png");
+}
+h1 {
+    color: orange;
+    font-weight: bold;
+}
+.login_div1, .login_div2 {
+    padding: 10px;
+    float: none;
+    border: 3px solid lightskyblue;
+    border-radius: 15px;
+}
+.login_div1 {
+    margin-top: 50px;
+}
+label {
+    font-size: 17px;
+}
