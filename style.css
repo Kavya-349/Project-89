@@ -17,3 +17,10 @@ h1 {
 label {
     font-size: 17px;
 }
+#output {
+    border: 5px solid white;
+    border-top: 10px solid yellow;
+    width: 500px;
+    padding-bottom: 4px;
+    float: none;
+}

@@ -8,8 +8,6 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
         <link rel="stylesheet" type="text/css" href="style.css"
-
-        <script src="main.js"></script>
     </head>
     <body>
         <center>
@@ -17,16 +15,18 @@
         <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
             <h3>Player 1 Login</h3>
             <label>User Name:</label>
-            <input type="text" placeholder="Player 1 Login" class="form-control">
+            <input id="p1" type="text" placeholder="Player 1 Login" class="form-control">
         </div>
         <br>
         <div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
             <h3>Player 2 Login</h3>
             <label>User Name:</label>
-            <input type="text" placeholder="Player 2 Login" class="form-control">
+            <input id="p2" type="text" placeholder="Player 2 Login" class="form-control">
         </div>
         <br><Br>
-        <button id="enter_button" class="btn btn-primary" onclick="addUser()">Login</button>
+        <button onclick="addUser()" class="btn btn-primary">Login</button>
+
+        <script src="main.js"></script>
         </center>
     </body>
 </html>
